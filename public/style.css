@@ -1,0 +1,333 @@
+@font-face {
+	font-family: 'segoe-ui';
+	src: url('font-files/segoe-ui.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url('font-files/proxima-nova.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body, nav, ul, li, a, h1, h2, h3, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'segoe-ui';
+	color: #2a2e37;
+	background-color: #fff;
+}
+
+header {
+	background-color:#2a2e37;
+	height: auto;
+	padding-top: 0.5em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+	list-style-type: none;
+	text-align: center;
+	width: 8em;
+	margin-right: 0.5em;
+}
+
+nav li:last-of-type {
+	margin-right: 0;
+}
+
+nav a {
+	display: block;
+	padding: 0.5em;
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	color: #58acfa;
+	transition: all 0.2s;
+}
+
+a:hover {
+	color: #fff;
+	transition: all 0.2s;
+}
+
+main {
+	width: 100%;
+	margin: auto;
+}
+
+section {
+	text-align: center;
+	padding: 50px;
+}
+
+.page-top {
+	background-color: #2a2e37;
+	color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.page-top p {
+	font-size: 28px;
+}
+
+.page-services {
+	display: flex;
+	justify-content: center;
+}
+
+.service {
+	width: 360px;
+	text-align: left;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.page-portfolio {
+	background-color: #f9f9f9;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.page-contact {
+
+}
+
+h2 {
+	font-family: 'segoe-ui';
+	font-weight: normal;
+	font-size: 22px;
+	margin-bottom: 0.25em;
+}
+
+p {
+	font-size: 18px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	margin-bottom: 1em;
+}
+
+.form-error {
+	color: #fa5858;
+	margin-bottom: 0.5em;
+}
+
+.form-success {
+	color: #3adf00;
+	margin-top: 0.5em;
+}
+
+form {
+	margin-top: 2em;
+}
+
+form input[type=text], textarea {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	font-family: 'segoe-ui';
+	font-size: 16px;
+	width: 300px;
+	padding: 0.5em;
+	box-sizing: border-box;
+	background-color: #f9f9f9;
+	resize: none;
+	border: none;
+}
+
+form input[type=submit] {
+	-webkit-appearance: none;
+	-webkit-border-radius: 0;
+	border: 0;
+	border-radius: 0;
+	width: 8em;
+	font-family: 'segoe-ui';
+	font-size: 18px;
+	color: #58acfa;
+	background-color: rgba(42, 46, 55, 0.1);
+	padding: 0.5em;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+form input[type=submit]:hover {
+	color: #2a2e37;
+	transition: all 0.2s;
+}
+
+form input[type=text]:focus, textarea:focus {
+	outline: none;
+}
+
+/*--------------------------------------------------LEAGUE--------------------------------------------------*/
+
+.page-top-league {
+	background-color: #2a2e37;
+	color: #fff;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.page-table {
+	margin-bottom: 1em;
+}
+
+.image-champion {
+	height: 30px;
+	width: 30px;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 0;
+	vertical-align: middle;
+}
+
+table {
+	display: inline-block;
+	border: 1px solid rgba(42, 46, 55, 0.1);
+	border-collapse: collapse;
+}
+
+table tr {
+	height: 3em;
+}
+
+table tr:first-of-type {
+	height: 2em;
+}
+
+table tr:last-of-type td {
+	border-bottom: 0;
+}
+
+table th {
+	font-weight: normal;
+}
+
+table td {
+	width: 6em;
+	border: 1px solid rgba(42, 46, 55, 0.1);
+	border-right: none;
+	border-left: none;
+}
+
+table td:first-of-type {
+	width: 10em;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	border-bottom: none;
+}
+
+select {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	font-family: 'segoe-ui';
+	font-size: 16px;
+	width: 10em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.champlink {
+	font-size: 16px;
+}
+
+.champlink:hover {
+	font-weight: normal;
+	color: #2a2e37;
+}
+
+/*--------------------------------------------------CHRONOBREAK--------------------------------------------------*/
+
+.page-top-chronobreak {
+	background-color: #2a2e37;
+	color: #fff;
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+
+.logochrono {
+	height: 180px;
+	width: auto;
+}
+
+.pchrono {
+	font-style: italic;
+}
+
+.changelog {
+	font-family: monospace;
+	font-size: 14px;
+	display: inline-block;
+	text-align: left;
+	background-color: rgba(42, 46, 55, 0.05);
+	width: 480px;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	white-space: pre-line;
+}
+
+@media screen and (max-width: 896px) {
+
+	h2 {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+
+	.page-services {
+		flex-wrap: wrap;
+	}
+
+	.service {
+		width: 320px;
+		padding-bottom: 2em;
+	}
+
+	.service:last-of-type {
+		padding-bottom: 0;
+	}
+
+}
+
+@media screen and (max-width: 384px) {
+
+	section {
+		padding: 30px;
+	}
+
+	.page-top {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	form input[type=text], textarea {
+		width: 80%;
+	}
+
+}
