@@ -52,10 +52,10 @@
       <?php
 
         //Get database connection
-        $servername = "rdbms.strato.de";
-        $username = "U2954225";
-        $password = "ralph1503";
-        $dbname = "DB2954225";
+        $servername = "";
+        $username = "";
+        $password = "";
+        $dbname = "";
 
         $conn = new mysqli($servername, $username, $password, $dbname);
         if ($conn->connect_error) {
